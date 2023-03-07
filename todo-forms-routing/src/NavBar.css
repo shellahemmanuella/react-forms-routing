@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00743f;
+    height: 3rem;
+  }
+
+  
+
+  
+  
+  li {
+    list-style: none;
+  }
+  
+  .btns {
+    display: flex;
+  }
+  .nav-btn1 {
+    background-color: #002d13;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  .nav-btn2 {
+    background-color: #ffc700;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: #002d13;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,266 @@
+/* body{
+  background-color: #17181f;
+  color: #aaa;
+} */
+
+*{
+  box-sizing: border-box; 
+}
+
+main{
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+form{
+  border:3px solid #30313d; 
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+/* form input[type='text'] {
+  background: none;
+  border: 0;
+  padding: 0 8px;
+  display: block;
+  width: 100%;
+} */
+
+form button{
+  background-color: #61dafb;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+div.task{
+  background-color: #30313d;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* forms css */
+body{
+  /* background-image: url('./images/im.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;   */
+  background-image: linear-gradient(to bottom left,#002d13,#145a31); 
+  /* color: #ec449b;  */
+  /* color: #feda14;  */
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+.form-input {
+  color: #000;
+  border: 2px solid rgb(97, 97, 97);
+  border-radius: 3px;
+  background-color:whitesmoke;
+  display: grid;
+  margin-top: 5px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  width:500px;
+}
+
+label{
+  margin-left: 2px;
+}
+
+.form1{
+  padding-left: 20px;
+  margin-bottom: 20px;} 
+
+h3{
+  text-align: center;
+  font-size: 30px;
+}
+
+.container{
+  min-width: 850px;
+  min-height: 500px;
+  /* padding: 30px; */
+  border-radius: 10px;
+  margin-bottom: 10px;
+} 
+
+.container1{
+  padding: 30px;
+  padding-left: 30px;
+  background: linear-gradient(to right bottom, #005739,#30da9f);
+  color:#ffc700;
+  border: rgb(7, 7, 7) 3px solid;  
+  border-radius: 10px; 
+  margin-right: 400px;
+  margin-left: 280px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  box-shadow: 3px 6px 40px black; 
+  box-sizing: border-box; 
+  width: 600px;
+  font-weight: bold; 
+} 
+
+
+.form-sub{
+  color: white;
+  border-radius: 5px;
+  background-color: #002d13;
+  padding: 8px;
+  font-weight: bold;
+  margin-left: 80px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.form-sub:hover{
+  
+  background-color:#ffc700;
+
+}
+
+
+.tab {
+  overflow: hidden;
+  background-color: linear-gradient(to bottom left,#192e5b,#1d65a6);
+  
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  color: #ffffff;
+  float: left;
+  border: 1px solid #ffc700;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size:small;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #002d13;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #30da9f;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  /* border: 1px solid #33adbb; */
+  border-top: none;
+}
+
+#form1, #form2, #form3 {
+  display: block;
+  margin: 1rem;
+  color: white;
+  /* border: 1px solid #33adbb; */
+  padding: 1rem;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+}
+input, select, textarea {
+  width: 20rem;
+  margin-bottom: 1rem;
+  height: 40px;
+  font-size: 20px;
+}
+
+
+
+
+
+.prof{
+  text-align: left;
+  font-size: 20px;
+  color:#ffc700;
+  /* border: 1px solid black; */
+  padding:100px;
+
+}
+
+div.task{
+  background-color: #005739;
+  border-radius: 10px;
+  padding: 5px 9px;
+  margin-top: 5px;
+  display:flex;
+  align-items: center;
+  transition: opacity .3s linear;}
+
+div.checkbox{
+    display:flex;
+    align-items: center;}
+
+
+div.task svg{
+    height: 20px;
+    margin-right: 6px;
+    fill: #ffc700}
+
+  button.trash{
+      background:none;
+      border:none;
+      display:flex;
+      cursor:pointer;
+  }
+  button.trash svg{
+      fill: #ffc700;
+      height: 14px;
+  }
+
+  div.task input{
+    border: 2px solid #555;
+    border-radius:5px;
+    padding: 2px 4px;}
+
+
+    div.task.done{
+      opacity: 0.3;
+  } 
+
+  div.task-name, div.task form{
+      flex-grow:1;
+  }
+  div.task span{
+      position:relative;
+  }
+  div.task span:before{
+      content:'';
+      display:block;
+      width:0;
+      height:1px;
+      background-color: #ddd;
+      position:absolute;
+      top: 10px;
+      transition: width .1s linear;
+  }
+  div.task.done span:before{
+      width: 100%;
+  }
+  
+
+
+
+
+
